@@ -1,0 +1,157 @@
+.review{
+padding: 80px 100px ;
+  &__description{
+    @include text($lato,normal,normal,14px,17px);
+    color: #23283B;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    justify-content: center;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+  }
+  &__item{
+    @include text($montserrat,normal,bold,18px,150%);
+    text-align: center;
+    color: #3035C450;
+    position: relative;
+    transition: 2s;
+    cursor: pointer;
+    &:hover{
+      color: #E6514A;
+      transition: 1s;
+    }
+    &::before{
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background:#E6514A;
+      bottom: -20px;
+      left: 0;
+      transition: 2s;
+    }
+    span{
+      opacity: 0;
+      font-size: 0;
+      transition: 1s;
+    }
+    &_active{
+      color:#E6514A;
+      &::before{
+        width: 100%;
+        transition: 2s;
+      }
+      span{
+        opacity: 100%;
+        font-size: 18px;
+        transition: 1s;
+      }
+    }
+  }
+  &__title{
+    @include text($montserrat,normal,800px,48px,130%);
+    text-align: center;
+    color: #23283B;
+    margin: 20px 0 52px;
+  }
+  &__tabs-content {
+    display: none;
+    padding: 48px 52px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 40px rgba(0, 11, 68, 0.22);
+    border-radius: 10px;
+    transition: 3s;
+    &_active {
+      display: block;
+      transition: 3s;
+    }
+  }
+  &__tabs-title{
+    @include text($montserrat,normal,800px,24px,130%);
+    color: #3035C4;
+    margin-bottom: 24px;
+  }
+  &__tabs-subtitle{
+    @include text($lato,normal,normal,14px,150%);
+    color: #23283B;
+    margin-bottom: 48px;
+  }
+  &__tabs-cards{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__tabs-info-card{}
+  &__tabs-cards-title{
+    @include text($montserrat,normal,800px,20px,130%);
+    color: #23283B;
+    margin-bottom: 24px;
+  }
+  &__tabs-cards-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  &__tabs-cards-item{
+    @include text($lato,normal,800px,14px,150%);
+    color: #23283B;
+    &_description{
+      @include text($lato,normal,800px,14px,150%);
+      color: #23283B;
+      display: block;
+      margin-left: 33px;
+    }
+    &_des{
+      display: block;
+      margin: -20px 0 0 33px;
+    }
+  }
+  &__tabs-cards-icon{
+    color: #E6514A;
+    margin-right: 10px;
+  }
+  &__tabs-func-card{}
+  &__tabs-func-title{
+    @include text($montserrat,normal,800px,20px,130%);
+    color: #23283B;
+    margin-bottom: 24px;
+  }
+  &__tabs-func-info{
+    @include text($lato,normal,normal,14px,150%);
+    margin-bottom: 8px;
+    &_red{
+      @include text($lato,normal,800px,14px,150%);
+      color: #E6514A;
+    }
+  }
+  &__tabs-func-line{
+    width: 220px;
+    height: 4px;
+    background: #DEDEFF;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 16px;
+    &::before{
+      content: '';
+      width: 60px;
+      height: 100%;
+      background: #E6514A;
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  &__tabs-diploma{
+
+  }
+  &__tabs-diploma-title{
+    @include text($montserrat,normal,800px,20px,130%);
+    color: #23283B;
+    margin-bottom: 24px;
+  }
+  &__tabs-diploma-img{}
+}

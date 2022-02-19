@@ -1,0 +1,100 @@
+.training-programs{
+  padding: 100px 0 80px;
+  &__content{
+
+  }
+  &__description{
+    @include text($lato,normal,normal,14px,17px);
+    color: #23283B;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    justify-content: center;
+  }
+  &__title{
+    @include text($montserrat,normal,800px,48px,130%);
+    text-align: center;
+    color: #23283B;
+    margin-top: 20px;
+  }
+  &__cards{
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    margin-top: 52px;
+  }
+  &__card{
+    max-width: 288px;
+    width: 100%;
+  }
+  &__price-box{
+    padding: 28px 20px ;
+    border: 1px solid #DEDEFF;
+    border-radius: 4px;
+
+  }
+  &__price{
+    @include text($montserrat,normal,900px,18px,22px);
+    text-align: center;
+    color: #3035C4;
+    height: 71px;
+    &_size{
+      @include text($montserrat,normal,900px,40px,49px);
+      text-align: center;
+    }
+    &_lil{
+      @include text($montserrat,normal,900px,22px,27px);
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #3035C4;
+    }
+  }
+  &__price-description{
+    @include text($montserrat,normal,bold,16px,20px);
+    text-align: center;
+    color: #23283B;
+    margin-top: 16px;
+  }
+  &__list{
+    margin-top: 32px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  &__list-item{
+    @include text($lato,normal,normal,14px,150%);
+    color: #23283B;
+    display: flex;
+    column-gap: 16px;
+  }
+  &__list-item-icon{
+    color: #E6514A;
+  }
+  &__btn{
+    @include btn(230px,52px,$bg-color,30px);
+    @include text($montserrat,normal,bold,16px,20px);
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin: 32px 23.75px 20px;
+    transition: .3s;
+    &:hover{
+      background-color: $bg-hover;
+      cursor: pointer;
+    }
+  }
+  &__video-link{
+    @include text($roboto,normal,900px,14px,16px);
+    color: #3035C4;
+    margin-left: 45.75px;
+    display: flex;
+    column-gap: 12px;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      color: #E6514A;
+    }
+  }
+}

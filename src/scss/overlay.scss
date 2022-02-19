@@ -1,0 +1,101 @@
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:  #23283B70;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  margin: 0 auto;
+  z-index: 100;
+  .popup{
+    display: flex;
+    column-gap: 52px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    max-width: 770px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    &__close{
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      &:before{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #23283B;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotate(-45deg);
+      }
+      &:after{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #23283B;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotate(45deg);
+      }
+    }
+    &__form-box{
+      padding: 52px 70px 52px 0;
+    }
+    &__title{
+      @include text($montserrat,normal,800px,32px,130%);
+      color: #3035C4;
+      margin-bottom: 12px;
+    }
+    &__subtitle{
+      @include text($lato,normal,normal,12px,150%);
+      color: #23283B;
+      margin-bottom: 36px;
+    }
+    &__form-block{
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+      margin-bottom: 16px;
+    }
+    &__form-label{
+      @include text($montserrat,normal,bold,14px,17px);
+      color: #23283B;
+    }
+    &__form-input{
+      width: 100%;
+      height: 52px;
+      background: #FFFFFF;
+      border: 1px solid #23283B20;
+      border-radius: 40px;
+      padding: 20px;
+      &::placeholder{
+        @include text($lato,normal,normal,14px,17px);
+        color: #23283B30;
+      }
+    }
+    &__form-btn{
+      width: 300px;
+      height: 52px;
+      background: #E6514A;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      @include text($montserrat,normal,bold,16px,20px);
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 32px;
+      &:hover{
+        background-color: #BE312B;
+      }
+    }
+  }
+}

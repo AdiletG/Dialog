@@ -1,0 +1,32 @@
+@import "../fonts/roboto/stylesheet.css";
+@import "../fonts/Lato/stylesheet.css";
+@import "../fonts/Montserrat/stylesheet.css";
+@import "../libs/fontello/css/fontello.css";
+@import "text-style";
+@import "btn-style";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.span{
+  margin-bottom: 8px;
+}
+
+
+@import "header";
+@import "main";
+@import "footer";
+
+
+@import "overlay";
+

@@ -1,0 +1,24 @@
+.partner{
+  padding: 80px 0 82px;
+  &__content{}
+  &__description{
+    @include text($lato,normal,normal,14px,17px);
+    color: #23283B;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    justify-content: center;
+  }
+  &__title{
+    @include text($montserrat,normal,800px,48px,130%);
+    text-align: center;
+    color: #23283B;
+    margin-top: 20px;}
+  &__partners{
+    display: flex;
+    margin-top: 52px;
+    justify-content: center;
+    column-gap: 56.4px;
+  }
+  &__list{}
+}

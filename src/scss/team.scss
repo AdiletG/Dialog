@@ -1,0 +1,68 @@
+.team{
+  padding: 100px 0;
+  &__content{
+  }
+  &__title{
+    @include text($montserrat,normal,800px,48px,130%);
+    text-align: center;
+    color: #23283B;
+    margin: 20px 0 52px;
+  }
+  &__description{
+    @include text($lato,normal,normal,14px,17px);
+    color: #23283B;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    justify-content: center;
+  }
+  &__card{
+    &-img{
+      width: 100%;
+      margin-bottom: 43px;
+    }
+
+  }
+  &__carousel{
+    position: relative;
+  }
+  &__arrow{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-color: #FFFFFF!important;
+    border-radius: 50%!important;
+    box-shadow: 0 10px 40px rgba(0, 11, 68, 0.22);
+    top: 50%;
+    transform: translateY(-50%);
+    color: #E6514A!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    transition: 0.5s;
+    &:hover{
+      color: #FFFFFF!important;
+      background-color: #3035C4!important;
+      transition: 0.5s;
+    }
+    &_prev{
+      left: -44px;
+      transform: translateX(-100%);
+    }
+    &_next{
+     right: -44px;
+      transform: translateX(100%);
+    }
+  }
+  &__dot span{
+    background-color:  #DEDEFF!important;
+    &:hover{
+      background-color: #3035C4!important;
+    }
+  }
+  &__dot.active span{
+    background-color: #E6514A!important;
+  }
+}

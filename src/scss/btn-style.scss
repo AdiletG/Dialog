@@ -1,0 +1,9 @@
+$bg-color:#E6514A;
+$bg-hover:#BE312B;
+
+@mixin btn($w,$h,$bg,$br){
+  width: $w;
+  height: $h;
+  background-color: $bg;
+  border-radius: $br;
+}

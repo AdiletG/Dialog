@@ -1,0 +1,62 @@
+.advent{
+  padding: 80px 0;
+  &__description{
+    @include text($lato,normal,normal,14px,17px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    color: #23283B;
+    margin-bottom: 20px ;
+  }
+  &__title{
+    @include text($montserrat,normal,800px,48px,130%);
+    color: #23283B;
+    text-align: center;
+  }
+  &__content{
+    margin-top: 82px;
+  }
+  &__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+  }
+  &__card-img{
+    margin: 10px 50px 30px;
+    &_size{
+      width: 100px;
+      height: 100px;
+      margin: 10px 50px 30px;
+    }
+  }
+  &__card-title{
+    @include text($lato,normal,800px,18px,150%);
+    text-align: center;
+    color: #23283B;
+    margin-bottom: 12px;
+  }
+  &__card-subtitle{
+    @include text($lato,normal,normal,16px,150%);
+    text-align: center;
+    color: #23283B;
+
+  }
+  &__btn{
+    @include btn(365px,52px,$bg-color,30px);
+    @include text($montserrat,normal,bold,16px,20px);
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin: 96px 402.5px 0;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      background: $bg-hover;
+    }
+  }
+}

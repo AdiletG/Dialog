@@ -1,0 +1,39 @@
+.diploma{
+  padding: 106px 0;
+
+  &__content{
+    background-color: #3035C3;
+    box-shadow: 0 10px 40px rgba(73, 95, 211, 0.22);
+    border-radius: 20px;
+    padding: 100px 70px 100px 550px;
+    position: relative;
+  }
+  &__title{
+    @include text($montserrat,normal,800px,32px,130%);
+    color: #FFFFFF;
+
+  }
+  &__subtitle{
+    @include text($lato,normal,normal,16px,150%);
+    color: #FFFFFF;
+    margin-top: 25px ;
+  }
+  &__btn{
+    @include btn(375px,52px,$bg-color,30px);
+    @include text($montserrat,normal,bold,16px,20px);
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 32px ;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      background: $bg-hover;
+    }
+  }
+  &__img{
+    position: absolute;
+    top: -46px;
+    left: 70px;
+  }
+}

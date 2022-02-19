@@ -1,0 +1,28 @@
+.subscribe{
+  padding: 60px 0 100px;
+  &__content{
+    background: url("../img/subscribe/bg.png");
+    display: flex;
+    align-items: center;
+    padding: 100px  70px;
+    border-radius: 20px;
+    column-gap: 196px;
+  }
+  &__title{
+    @include text($montserrat,normal,800px,36px,130%);
+    color: #FFFFFF;
+
+  }
+  &__btn{
+    @include text($montserrat,normal,bold,16px,20px);
+    @include btn(234px,52px,$bg-color,30px);
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+    background-color: $bg-hover;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.diploma {
+  padding: 106px 0;
+  position: relative;
+}
+.diploma__content {
+  background-color: #3035C3;
+  box-shadow: 0 10px 40px rgba(73, 95, 211, 0.22);
+  border-radius: 20px;
+}
+.diploma__img {
+  position: absolute;
+  display: none;
+}
+
+/*# sourceMappingURL=diploma.css.map */

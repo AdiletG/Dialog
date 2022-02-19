@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c43529f8-68ff-49f5-a927-27e1a8ef9e57" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2104bczzjdCpNIgpodzbpPuc8ke" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Lesson's\Pupup\src\img\hero" />
+      <recent name="D:\Project\Lesson's\Pupup\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Lesson's\Pupup\src\libs\owl-carousel" />
+      <recent name="D:\Project\Lesson's\Pupup\src\scss" />
+      <recent name="D:\Project\Lesson's\Pupup\src\js" />
+      <recent name="D:\Project\Lesson's\Pupup\src\img\video-screen" />
+      <recent name="D:\Project\Lesson's\Pupup\src\img\header" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c43529f8-68ff-49f5-a927-27e1a8ef9e57" name="Default Changelist" comment="" />
+      <created>1637064743131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637064743131</updated>
+      <workItem from="1637064745832" duration="3522000" />
+      <workItem from="1637127107207" duration="6548000" />
+      <workItem from="1637218950145" duration="9984000" />
+      <workItem from="1637235816249" duration="5275000" />
+      <workItem from="1637292244964" duration="6239000" />
+      <workItem from="1637314799840" duration="6411000" />
+      <workItem from="1637409490562" duration="1933000" />
+      <workItem from="1637414014240" duration="1913000" />
+      <workItem from="1637569584233" duration="1156000" />
+      <workItem from="1637655946778" duration="7277000" />
+      <workItem from="1637664015948" duration="956000" />
+      <workItem from="1637669094802" duration="6325000" />
+      <workItem from="1637726314326" duration="14669000" />
+      <workItem from="1637842017782" duration="441000" />
+      <workItem from="1637842670703" duration="3414000" />
+      <workItem from="1637856978173" duration="6000" />
+      <workItem from="1637907357536" duration="344000" />
+      <workItem from="1637924316650" duration="977000" />
+      <workItem from="1638026840457" duration="264000" />
+      <workItem from="1638052024359" duration="1314000" />
+      <workItem from="1638053937873" duration="1783000" />
+      <workItem from="1638256581807" duration="69000" />
+      <workItem from="1638267993228" duration="2442000" />
+      <workItem from="1638274316751" duration="62000" />
+      <workItem from="1638445311480" duration="715000" />
+      <workItem from="1638446098151" duration="292000" />
+      <workItem from="1638609270337" duration="687000" />
+      <workItem from="1638709189831" duration="209000" />
+      <workItem from="1644397929283" duration="153000" />
+      <workItem from="1644493312406" duration="585000" />
+      <workItem from="1645090825217" duration="1049000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="399" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1637729077582">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="399" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672@0.0.1280.672" timestamp="1637729077582" />
+    <state x="277" y="115" key="EditFileWatcherDialog" timestamp="1637064894740">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="277" y="115" key="EditFileWatcherDialog/0.0.1280.672@0.0.1280.672" timestamp="1637064894740" />
+    <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1638274379038">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1638274379038" />
+    <state x="297" y="149" key="run.anything.popup" timestamp="1637673380843">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="297" y="149" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1637673380843" />
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1637127958347">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1637127958347" />
+  </component>
+</project>
